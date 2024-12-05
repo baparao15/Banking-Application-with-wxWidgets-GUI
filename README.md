@@ -42,6 +42,34 @@ Search for an account using account number or name.
 
 ---
 
+
+## Description of the Libraries Used in the Project
+
+1. **`#include <iostream>`**  
+   Used for input and output operations. Provides the standard input (`std::cin`), output (`std::cout`), and error (`std::cerr`) streams.
+
+2. **`#include <fstream>`**  
+   Enables file handling, such as reading from and writing to files. Used to manage account and admin data persistence.
+
+3. **`#include <string>`**  
+   Supports string manipulation, allowing operations like concatenation, comparison, and transformations.
+
+4. **`#include <iomanip>`**  
+   Provides control over the formatting of input and output, such as setting precision, aligning text, and controlling decimal points in numeric data.
+
+5. **`#include <vector>`**  
+   Offers a dynamic array-like structure to store and manage user-defined data, such as account information, efficiently.
+
+6. **`#include <sstream>`**  
+   Used for string stream operations, enabling conversion between strings and other data types or extracting formatted input from strings.
+
+7. **`#include <wx/wx.h>`**  
+   Part of the wxWidgets library, which is used for creating the graphical user interface (GUI). It supports multi-platform development, making the application visually appealing and user-friendly.
+
+These libraries collectively empower the project to handle diverse functionalities, including GUI development, data management, and file handling.
+
+--- 
+
 ## How to Run
 
 1. Clone the repository:
